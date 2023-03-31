@@ -1,2 +1,2 @@
-# Class_JavaScript
+# Class JavaScript
  Class of my college FIAP related to Javascript
