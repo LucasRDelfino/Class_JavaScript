@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Witcher Mystery Solver</h1>
+    <header>
+        <label for="room">Cômodo do Crime</label>
+        <select id="room">
+            <option value="Training Hall">Salão de Treinamento</option>
+            <option value="Mystic Library">Biblioteca Mística</option>
+            <option value="Observatory Room">Quarto do Observatório</option>
+            <option value="Potion Room">Salão de Poções</option>
+        </select>
+    
+
+    <label for="weapon">Arma do Crime</label>
+    <select id="weapon">
+        <option value="Poison Flask">Frasco de Veneno</option>
+        <option value="Ghoul Trophy">Troféu de Ghouls</option>
+        <option value="Steel Sword">Espada de Aço</option>
+        <option value="Silver Knife">Faca de Prata</option>
+    </select>
+    </header>
+
+<main>
+    <button onclick="solveMistery()">Resolver o Mistério</button>
+    <div id="result"></div>
+    <div id="result">
+        <p id="suspectText"></p>
+        <img id="suspectImage" src="" alt="Imagem do suspeito" 
+        style="max-width: 200px; display: none;">
+    </div>
+    <button onclick="location.reload();">Recarregar</button>
+    
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
