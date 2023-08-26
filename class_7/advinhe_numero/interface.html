@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o Número</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Adivinhe o Número!</h1>
+    <p>Nós escolhemos um número entre 1 e 10. Você consegue adivinhá-lo?</p>
+    <input type="number" id="chute" placeholder="Digite sua adivinhação">
+    <button onclick="verificarChute()">Adivinhar</button>
+    <button onclick="desistir()">Desistir</button>
+    <p id="resultado"></p>
+
+    <script src="adivinhe.js"></script>
+</body>
+</html>
